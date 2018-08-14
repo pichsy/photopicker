@@ -21,6 +21,6 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-//    implementation project(':photopicker')
-    implementation 'com.pichs.photopicker:photopicker:1.0.2'
+    implementation project(':photopicker')
+//    implementation 'com.pichs.photopicker:photopicker:1.0.2'
 }

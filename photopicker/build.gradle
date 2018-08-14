@@ -19,8 +19,8 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 // 定义两个链接，下面会用到。
-def siteUrl = 'https://gitee.com/pichs/PhotoPicker' // 项目主页。
-def gitUrl = 'https://gitee.com/pichs/PhotoPicker.git' // Git仓库的url。
+def siteUrl = 'https://github.com/pichsy/photopicker' // 项目主页。
+def gitUrl = 'https://github.com/pichsy/photopicker.git' // Git仓库的url。
 
 group = "com.pichs.photopicker"// 唯一包名,比如compile 'com.ansen.http:okhttpencapsulation:1.0.1'中的com.ansen.http就是这里配置的。
 version = "1.0.2"//项目引用的版本号，比如compile 'com.ansen.http:okhttpencapsulation:1.0.1'中的1.0.1就是这里配置的。
@@ -32,7 +32,7 @@ install {
             project {
                 packaging 'aar'
                 // 项目描述，复制我的话，这里需要修改。
-                name 'potopicker'// 可选，项目名称。
+                name 'photopicker'// 可选，项目名称。
                 description 'photo picker ,small ,light ,usable'// 可选，项目描述。
                 url siteUrl // 项目主页，这里是引用上面定义好。
 
